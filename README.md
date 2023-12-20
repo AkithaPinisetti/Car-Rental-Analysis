@@ -108,14 +108,14 @@ http://44.202.119.172/pgadmin4/browser/
 2. clone from github
 
    ```bash
-   git clone .....
+   git clone https://github.com/AkithaPinisetti2107/DCSC_Final_Project.git
    ```
 
 3. cd to DCSC project directory
 
 4. run the scrits to test using pyhon3
 
-   `python3 script_name /dev/null`
+   `python3 DCSC_kafka_data_producer.py /dev/null`
 
    Here using `/dev/null` to re-direct console output.
 
@@ -127,7 +127,7 @@ http://44.202.119.172/pgadmin4/browser/
 
 6. once you confirm messages flowing through kafka, run the postgres python script to load the kafka json messages into postgresql database
 
-   `python3 script_name`
+   `python3 DCSC_kafka_psql.py`
 
 7. validate the data in postgresql database either using `pgadmin4` UI or simply running `psql` commands from ec2-instance.
 
