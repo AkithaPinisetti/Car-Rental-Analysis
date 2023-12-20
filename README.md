@@ -153,5 +153,4 @@ Validate crontab
 Integrate the postgresql into Tableau for visualization.
 
 
-Project Architecture - Also available in our presentation.
 <img width="527" alt="image" src="https://github.com/AkithaPinisetti2107/DCSC_Final_Project/assets/152043128/0879e9a8-d545-4377-a935-dce7c6e9ee8d">
